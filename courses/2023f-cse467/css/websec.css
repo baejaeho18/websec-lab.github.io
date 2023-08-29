@@ -1,0 +1,148 @@
+/* Global Styles */
+html {
+  padding: 0;
+  text-align: left;
+}
+
+body {
+  background: #333333;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+h2 {
+    position: relative;
+    font-size: 30px;
+    z-index: 1;
+    overflow: hidden;
+    text-align: center;
+}
+
+h2:before, h2:after {
+    position: absolute;
+    top: 51%;
+    overflow: hidden;
+    width: 50%;
+    height: 2px;
+    content: '\a0';
+    color: #001b54;
+    background-color: #001b54;
+}
+
+h2:before {
+    margin-left: -50%;
+    text-align: right;
+}
+
+
+.row {
+    margin-right: -15px;
+    text-align: center;
+    margin-left: -15px;
+}
+
+a {
+  color: #336699;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  color: #6699cc;
+}
+
+/* Navbar Styles */
+.navbar {
+  margin-bottom: 0;
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #ffffff;
+}
+
+.navbar-inverse {
+    background-color: #001B54;
+    border-color: #080808;
+}
+
+/* Main Content Styles */
+.main {
+  padding-top: 20px;
+  background-color: #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+  width: 100%;
+  height: 50px;
+  color: #ffffff;
+  background-color: #001B54;
+}
+
+/* Text Styles */
+.white-font {
+  color: #ffffff;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 30px;
+}
+
+/* News Styles */
+.news {
+  margin-top: 55px;
+}
+.news-image {
+  border-radius: 6px;
+}
+
+/* Name Card Styles */
+.namecard {
+  margin-top: 15px;
+}
+.namecard td {
+  vertical-align: top;
+}
+.namecard img {
+  max-height: 100px;
+}
+
+/* Photo Styles */
+.photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+/* Vertical Centering Styles */
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Back to Top Button Styles */
+#back-top a {
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  width: 30px;
+  height: 30px;
+  padding: 3px;
+  border-radius: 50%;
+  background: #cccccc;
+  font-size: 16px;
+  text-align: center;
+  vertical-align: middle;
+  transition: 1s;
+}
+
+
+.bg-info {
+    background-color: #44C1C4;
+}
+
+.bg-info-top {
+    background-color: #001B54;
+  color: #ffffff;
+}
