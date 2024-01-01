@@ -390,6 +390,9 @@ h6,
 
 /*** Team ***/
 .team-item {
+    width: 240px;
+    height: 440px;
+    margin:0 auto;
     transition: .5s;
 }
 
@@ -446,6 +449,9 @@ h6,
 
 .team-item .team-img img,
 .blog-item .blog-img img  {
+    width:200px;
+    height: 310px;
+    object-fit: cover; 
     transition: .5s;
 }
 
